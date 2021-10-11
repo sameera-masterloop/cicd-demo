@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CICDDemo.WebAPI", "CICDDemo.WebAPI\CICDDemo.WebAPI.csproj", "{5CC309BC-376B-402A-B1B3-98BCD38413E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CICDDemo.WebAPI.Tests", "CICDDemo.WebAPI.Tests\CICDDemo.WebAPI.Tests.csproj", "{2200CE5D-6BC0-4983-BF0D-992DEFD95875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CC309BC-376B-402A-B1B3-98BCD38413E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC309BC-376B-402A-B1B3-98BCD38413E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC309BC-376B-402A-B1B3-98BCD38413E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC309BC-376B-402A-B1B3-98BCD38413E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2200CE5D-6BC0-4983-BF0D-992DEFD95875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2200CE5D-6BC0-4983-BF0D-992DEFD95875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2200CE5D-6BC0-4983-BF0D-992DEFD95875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2200CE5D-6BC0-4983-BF0D-992DEFD95875}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
