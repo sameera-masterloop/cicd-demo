@@ -11,7 +11,14 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
+  projectName: 'CICDDemo.WebAPI'
 
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  displayName: "Run Tests for $(projectName)"
+  inputs:
+    command: 'test'
+    projects: '**/$(projectName).Tests/$(projectName).Tests.csproj'
