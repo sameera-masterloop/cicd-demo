@@ -37,7 +37,7 @@ namespace CICDDemo.WebAPI.Tests
             var result = await GetContent<WeatherForecast[]>(response);
 
             response.EnsureSuccessStatusCode();
-            Assert.Equal(5, result.Length);
+            Assert.Equal(4, result.Length);
         }
 
         [Fact]
